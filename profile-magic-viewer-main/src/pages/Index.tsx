@@ -20,7 +20,7 @@ const Index: React.FC = () => {
         <SplashScreen onAccept={handleAccept} />
       ) : (
         <>
-          <BackgroundVideo videoSource="/InShot_20250504_104119451.mp4" />
+          <BackgroundVideo videoSource={`${import.meta.env.BASE_URL}InShot_20250504_104119451.mp4`} />
           <SnowEffect />
           <div className="relative z-10 min-h-screen px-4 py-8 md:py-12">
             <div className="max-w-md mx-auto space-y-4">
